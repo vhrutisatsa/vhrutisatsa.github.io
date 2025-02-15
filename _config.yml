@@ -1,0 +1,34 @@
+title: "Your Name"
+author: "Your Name"
+description: "Neuroscientist | Researcher | Artist"
+
+baseurl: ""
+url: "https://your-username.github.io"
+
+remote_theme: mmistakes/minimal-mistakes
+
+# Navigation Menu
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Art
+    url: /artworks/
+  - title: About
+    url: /about/
+
+# Collections
+collections:
+  projects:
+    output: true
+  artworks:
+    output: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
