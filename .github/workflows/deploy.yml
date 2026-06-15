@@ -38,7 +38,7 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Build Academic Portfolio Only
-        run: pnpm --filter "./artifacts/portfolio" run build
+        run: PORT=3000 pnpm --filter "./artifacts/portfolio" run build
 
       - name: Upload Build Output
         uses: actions/upload-pages-artifact@v3
