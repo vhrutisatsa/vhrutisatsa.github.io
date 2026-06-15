@@ -7,22 +7,21 @@ const fadeIn = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] }
-  }
+    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
+  },
 };
 
 const stagger = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.12, delayChildren: 0.2 }
-  }
+    transition: { staggerChildren: 0.12, delayChildren: 0.2 },
+  },
 };
 
 export function Home() {
   return (
     <div className="min-h-screen text-foreground selection:bg-primary/20 selection:text-primary">
-
       {/* Hero */}
       <motion.section
         initial="hidden"
@@ -34,10 +33,15 @@ export function Home() {
           variants={fadeIn}
           className="text-5xl md:text-7xl lg:text-8xl font-serif leading-[1.05] tracking-tight mb-10"
         >
-          Searching,<br />
-          learning, and<br />
-          making decisions<br />
-          <span className="italic text-muted-foreground">under uncertainty.</span>
+          Searching,
+          <br />
+          learning, and
+          <br />
+          making decisions
+          <br />
+          <span className="italic text-muted-foreground">
+            under uncertainty.
+          </span>
         </motion.h1>
 
         <motion.div
@@ -45,13 +49,16 @@ export function Home() {
           className="max-w-2xl space-y-5 text-lg md:text-xl text-foreground/80 font-light leading-relaxed"
         >
           <p>
-            I am a researcher exploring how human minds forage for information and adapt in complex environments.
+            I am a researcher exploring how human minds forage for information
+            and adapt in complex environments.
           </p>
           <p>
-            My work integrates behavioral experiments, computational modeling, and cognitive neuroscience to study adaptive behavior. I am also a writer and visual artist.
+            My work integrates behavioral experiments, computational modeling,
+            and cognitive neuroscience to study adaptive behavior. I am also a
+            writer and visual artist.
           </p>
           <p className="text-sm uppercase tracking-widest font-medium pt-2 text-primary">
-            Preparing for PhD Applications — Fall 2025
+            Preparing for PhD Applications and Research Roles
           </p>
         </motion.div>
       </motion.section>
@@ -65,7 +72,9 @@ export function Home() {
         className="max-w-4xl mx-auto px-6 md:px-12 mb-40"
       >
         <motion.div variants={fadeIn} className="flex items-center gap-4 mb-12">
-          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">01 / Research</h2>
+          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">
+            01 / Research
+          </h2>
           <div className="h-px bg-border flex-1" />
         </motion.div>
 
@@ -76,9 +85,14 @@ export function Home() {
                 Environmental Structure and Foraging
                 <ArrowUpRight className="w-5 h-5 opacity-0 -translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300" />
               </h3>
-              <div className="text-xs text-primary mb-3 uppercase tracking-wider font-medium">Master's Thesis · IIT Kanpur</div>
+              <div className="text-xs text-primary mb-3 uppercase tracking-wider font-medium">
+                Master's Thesis · IIT Kanpur
+              </div>
               <p className="text-foreground/75 leading-relaxed max-w-2xl font-light">
-                Investigated how structured versus random environments influence patch-leaving decisions in reward-guided foraging tasks. Modeled using Hierarchical Drift Diffusion Models and Linear Mixed Models.
+                Investigated how structured versus random environments influence
+                patch-leaving decisions in reward-guided foraging tasks. Modeled
+                using Hierarchical Drift Diffusion Models and Linear Mixed
+                Models.
               </p>
             </Link>
           </motion.article>
@@ -89,9 +103,14 @@ export function Home() {
                 Smartphone Information Foraging
                 <ArrowUpRight className="w-5 h-5 opacity-0 -translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300" />
               </h3>
-              <div className="text-xs text-primary mb-3 uppercase tracking-wider font-medium">Junior Research Fellow · IIT Jodhpur</div>
+              <div className="text-xs text-primary mb-3 uppercase tracking-wider font-medium">
+                Junior Research Fellow · IIT Jodhpur
+              </div>
               <p className="text-foreground/75 leading-relaxed max-w-2xl font-light">
-                Exploring how digital information search behavior is shaped by affective states, uncertainty, and environmental cues. Translating ecological foraging theory into the digital attention economy.
+                Exploring how digital information search behavior is shaped by
+                affective states, uncertainty, and environmental cues.
+                Translating ecological foraging theory into the digital
+                attention economy.
               </p>
             </Link>
           </motion.article>
@@ -107,7 +126,9 @@ export function Home() {
         className="max-w-4xl mx-auto px-6 md:px-12 mb-40"
       >
         <motion.div variants={fadeIn} className="flex items-center gap-4 mb-12">
-          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">02 / Methods</h2>
+          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">
+            02 / Methods
+          </h2>
           <div className="h-px bg-border flex-1" />
         </motion.div>
 
@@ -142,22 +163,40 @@ export function Home() {
         className="max-w-4xl mx-auto px-6 md:px-12 mb-40"
       >
         <motion.div variants={fadeIn} className="flex items-center gap-4 mb-12">
-          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">03 / Writing</h2>
+          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">
+            03 / Writing
+          </h2>
           <div className="h-px bg-border flex-1" />
         </motion.div>
 
         <div className="space-y-2 pl-0 md:pl-12">
-          <motion.div variants={fadeIn} className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-border/50 group">
-            <Link href="/essays" className="text-2xl font-serif group-hover:text-primary transition-colors">
+          <motion.div
+            variants={fadeIn}
+            className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-border/50 group"
+          >
+            <Link
+              href="/essays"
+              className="text-2xl font-serif group-hover:text-primary transition-colors"
+            >
               What is Information Foraging?
             </Link>
-            <span className="text-sm text-muted-foreground italic mt-2 md:mt-0">Coming soon</span>
+            <span className="text-sm text-muted-foreground italic mt-2 md:mt-0">
+              Coming soon
+            </span>
           </motion.div>
-          <motion.div variants={fadeIn} className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-border/50 group">
-            <Link href="/essays" className="text-2xl font-serif group-hover:text-primary transition-colors">
+          <motion.div
+            variants={fadeIn}
+            className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-border/50 group"
+          >
+            <Link
+              href="/essays"
+              className="text-2xl font-serif group-hover:text-primary transition-colors"
+            >
               Why Humans Keep Scrolling
             </Link>
-            <span className="text-sm text-muted-foreground italic mt-2 md:mt-0">Coming soon</span>
+            <span className="text-sm text-muted-foreground italic mt-2 md:mt-0">
+              Coming soon
+            </span>
           </motion.div>
         </div>
       </motion.section>
@@ -171,7 +210,9 @@ export function Home() {
         className="max-w-4xl mx-auto px-6 md:px-12 mb-40"
       >
         <motion.div variants={fadeIn} className="flex items-center gap-4 mb-12">
-          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">04 / Art</h2>
+          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">
+            04 / Art
+          </h2>
           <div className="h-px bg-border flex-1" />
         </motion.div>
 
@@ -197,7 +238,9 @@ export function Home() {
         className="max-w-4xl mx-auto px-6 md:px-12 pb-40"
       >
         <motion.div variants={fadeIn} className="flex items-center gap-4 mb-12">
-          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">05 / Contact</h2>
+          <h2 className="text-xs uppercase tracking-widest font-semibold text-muted-foreground whitespace-nowrap">
+            05 / Contact
+          </h2>
           <div className="h-px bg-border flex-1" />
         </motion.div>
 
@@ -212,7 +255,6 @@ export function Home() {
           </a>
         </motion.div>
       </motion.section>
-
     </div>
   );
 }
