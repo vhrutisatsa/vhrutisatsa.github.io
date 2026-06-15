@@ -37,13 +37,13 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Build Project
-        run: pnpm -r --if-present run build
+      - name: Build Academic Portfolio Only
+        run: pnpm --filter "./artifacts/portfolio" run build
 
       - name: Upload Build Output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './artifacts/portfolio/dist'
 
   deploy:
     environment:
