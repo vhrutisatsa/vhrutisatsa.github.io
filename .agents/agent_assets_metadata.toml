@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "AJBTgjpVWX7gvLzJbC9FZ"
+uri = "file://artifacts/portfolio/src/assets/geometry-of-longing.png"
+type = "image"
+title = "Geometry of Longing painting"

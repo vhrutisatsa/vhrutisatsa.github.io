@@ -1,0 +1,464 @@
+# Build a Personal Website for Shruti Vatsa
+
+Create a sophisticated personal website for an interdisciplinary researcher, writer, and artist.
+
+The website should feel like a cross between:
+
+* a research notebook
+* a literary magazine
+* an artist's journal
+* an academic portfolio
+
+It should NOT feel like:
+
+* a startup landing page
+* a SaaS product website
+* a corporate portfolio
+* a generic resume website
+
+The overall impression should be intellectual, thoughtful, elegant, timeless, and personal.
+
+---
+
+## Identity
+
+Name:
+Shruti Vatsa
+
+Tagline:
+
+Researcher. Writer. Artist.
+
+Alternative subtitle:
+
+Exploring how humans search, learn, decide, and make meaning.
+
+Short introduction:
+
+I study how humans search for information, make decisions under uncertainty, and construct meaning. My work spans cognitive science, neuroscience, decision-making, information foraging, writing, and visual art. Through research, essays, and paintings, I explore the patterns that shape attention, agency, and experience.
+
+---
+
+## Design Philosophy
+
+The design should be inspired by:
+
+* research notebooks
+* old books and journals
+* literary magazines
+* museum catalogues
+* minimalist academic websites
+
+Visual qualities:
+
+* clean
+* calm
+* spacious
+* typography-focused
+* elegant
+* highly readable
+
+Avoid:
+
+* excessive animations
+* flashy effects
+* glassmorphism
+* neon colors
+* startup aesthetics
+* large marketing banners
+
+The site should feel like a place where serious thinking happens.
+
+---
+
+## Color Palette
+
+Primary colors:
+
+* warm off-white background (#F8F5EF)
+* charcoal text (#222222)
+* muted forest green accents (#355E3B)
+
+Optional secondary accents:
+
+* deep burgundy
+* muted navy
+
+The color palette should be subtle and timeless.
+
+---
+
+## Typography
+
+Use excellent typography.
+
+Suggested pairings:
+
+Headings:
+Cormorant Garamond
+or Playfair Display
+
+Body:
+Inter
+or Source Sans Pro
+
+Requirements:
+
+* large readable body text
+* generous line spacing
+* comfortable reading width
+* beautiful essay reading experience
+
+The website should prioritize reading.
+
+---
+
+## Navigation
+
+Top navigation:
+
+Home
+Research
+Essays
+Notes
+Art
+Commonplace Book
+CV
+Contact
+
+Sticky navigation bar.
+
+Mobile responsive.
+
+Dark mode toggle.
+
+Search functionality for essays and notes.
+
+---
+
+# HOME PAGE
+
+Hero Section
+
+Display:
+
+Shruti Vatsa
+
+Researcher. Writer. Artist.
+
+Short introduction.
+
+Include a tasteful portrait placeholder.
+
+Below hero section:
+
+Featured Research
+
+Featured Essay
+
+Featured Artwork
+
+Recent Notes
+
+Each should have a clean card design.
+
+---
+
+## About Section
+
+Create a narrative introduction rather than a résumé.
+
+Focus on:
+
+* cognitive science
+* neuroscience
+* decision-making
+* information foraging
+* writing
+* painting
+* interdisciplinary curiosity
+
+The tone should feel reflective and personal.
+
+---
+
+# RESEARCH PAGE
+
+Title:
+
+Research
+
+Subtitle:
+
+Questions that currently occupy my attention.
+
+Structure research around themes rather than institutions.
+
+Research Themes:
+
+1. Information Foraging
+
+Understanding how humans search for information and rewards.
+
+2. Predictive Minds
+
+Prediction, uncertainty, and adaptive behavior.
+
+3. Decision Making
+
+Choices under constraints and limited information.
+
+4. Digital Behaviour
+
+Attention, smartphones, and cognitive ecology.
+
+---
+
+## Research Projects
+
+Create project cards with:
+
+Title
+
+Question
+
+Methods
+
+Key Insights
+
+Current Status
+
+Include placeholders for:
+
+* MSc Thesis
+* IIT Jodhpur Research
+* Current Manuscripts
+* Future Projects
+
+---
+
+# ESSAYS PAGE
+
+This should be one of the most important sections.
+
+Create a beautiful essay archive.
+
+Layout:
+
+* title
+* date
+* short description
+* reading time
+
+Support:
+
+* categories
+* tags
+* search
+* filtering
+
+Example categories:
+
+Cognition
+
+Attention
+
+Art
+
+Literature
+
+Neuroscience
+
+Meaning
+
+Design
+
+Culture
+
+---
+
+## Individual Essay Pages
+
+Create a distraction-free reading layout.
+
+Requirements:
+
+* large typography
+* reading progress bar
+* footnotes support
+* pull quotes
+* image support
+* estimated reading time
+
+The experience should resemble reading a high-quality magazine.
+
+---
+
+# NOTES PAGE
+
+Purpose:
+
+Short reflections and observations.
+
+Inspired by commonplace books and research notebooks.
+
+Each note should display:
+
+* date
+* category
+* short content
+
+Example:
+
+Prediction is not primarily about forecasting the future. It is about making the present intelligible.
+
+Notes should be easy to add.
+
+---
+
+# ART PAGE
+
+Create a gallery that feels like a studio notebook.
+
+Each artwork should include:
+
+* image
+* title
+* year
+* medium
+* reflection
+
+Allow:
+
+* paintings
+* sketches
+* digital art
+* visual experiments
+
+Provide multiple layout options:
+
+* grid
+* masonry
+* featured artwork mode
+
+---
+
+# COMMONPLACE BOOK
+
+Create a dedicated section for:
+
+* quotations
+* excerpts
+* marginal notes
+* reading highlights
+
+Entries should be filterable by:
+
+Author
+
+Theme
+
+Date
+
+Examples:
+
+Literature
+
+Philosophy
+
+Psychology
+
+Science
+
+Art
+
+History
+
+This should feel like a digital intellectual notebook.
+
+---
+
+# CV PAGE
+
+Professional academic CV layout.
+
+Sections:
+
+Education
+
+Research Experience
+
+Publications
+
+Manuscripts
+
+Conferences
+
+Skills
+
+Awards
+
+Teaching
+
+Downloads
+
+Include PDF download button.
+
+---
+
+# CONTACT PAGE
+
+Simple and elegant.
+
+Include:
+
+Email
+
+LinkedIn
+
+GitHub
+
+Google Scholar
+
+Instagram
+
+Optional contact form.
+
+---
+
+# TECHNICAL REQUIREMENTS
+
+Use modern React and Next.js architecture.
+
+Create reusable components.
+
+Implement:
+
+* markdown support for essays
+* markdown support for notes
+* image optimization
+* SEO optimization
+* RSS feed
+* sitemap
+* dark mode
+* responsive design
+
+Content should be easy to update without editing code.
+
+Store essays and notes as markdown files.
+
+---
+
+# SPECIAL REQUIREMENT
+
+The website must communicate one central idea:
+
+Research, writing, and art are not separate activities.
+
+They are different ways of exploring the same questions:
+
+How do humans perceive, search, decide, learn, imagine, and create meaning?
+
+Every design decision should reinforce that feeling.
+
+The final website should feel closer to a personal intellectual home than a professional portfolio.
