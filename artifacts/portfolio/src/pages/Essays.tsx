@@ -27,16 +27,16 @@ const ALL_ESSAYS = [
     title: "Foraging Theory and the Mind",
     category: "Cognition",
     slug: "/essays/information-foraging",
-    desc: "How the mind treats information the same way a forager treats food.",
+    desc: "Foraging behaviour and theories.",
     published: true,
   },
   {
     id: 2,
-    title: "Why Humans Keep Scrolling",
-    category: "Attention",
+    title: "Linear Mixed-effects Models",
+    category: "Modelling",
     slug: "/essays/why-humans-keep-scrolling",
-    desc: "The neuroscience of infinite scroll and what it reveals about prediction.",
-    published: false,
+    desc: "Statistical model incorporating both fixed and random effects.",
+    published: true,
   },
   {
     id: 3,
@@ -56,7 +56,14 @@ const ALL_ESSAYS = [
   },
 ];
 
-const CATEGORIES = ["All", "Cognition", "Attention", "Art", "Neuroscience"];
+const CATEGORIES = [
+  "All",
+  "Cognition",
+  "Modelling",
+  "Art",
+  "Behaviour",
+  "Research",
+];
 
 export function Essays() {
   const [search, setSearch] = useState("");
