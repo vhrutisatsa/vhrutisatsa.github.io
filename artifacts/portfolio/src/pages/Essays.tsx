@@ -24,10 +24,11 @@ const stagger = {
 const ALL_ESSAYS = [
   {
     id: 1,
-    title: "What is Information Foraging?",
+    title: "Foraging Theory and the Mind",
     category: "Cognition",
     slug: "/essays/information-foraging",
     desc: "How the mind treats information the same way a forager treats food.",
+    published: true,
   },
   {
     id: 2,
@@ -35,6 +36,7 @@ const ALL_ESSAYS = [
     category: "Attention",
     slug: "/essays/why-humans-keep-scrolling",
     desc: "The neuroscience of infinite scroll and what it reveals about prediction.",
+    published: false,
   },
   {
     id: 3,
@@ -42,6 +44,7 @@ const ALL_ESSAYS = [
     category: "Neuroscience",
     slug: "/essays/shape-of-uncertainty",
     desc: "On living and deciding under irreducible uncertainty.",
+    published: false,
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ const ALL_ESSAYS = [
     category: "Attention",
     slug: "/essays/attention-as-a-resource",
     desc: "What cognitive ecology tells us about modern distraction.",
+    published: false,
   },
 ];
 
@@ -143,9 +147,11 @@ export function Essays() {
                 <span className="text-xs uppercase tracking-widest text-primary">
                   {essay.category}
                 </span>
-                <span className="text-xs italic bg-muted px-2 py-1 rounded-sm text-muted-foreground">
-                  Coming soon
-                </span>
+                {!essay.published && (
+                  <span className="text-xs italic bg-muted px-2 py-1 rounded-sm text-muted-foreground">
+                    Coming soon
+                  </span>
+                )}
               </div>
               <Link href={essay.slug}>
                 <h2 className="text-2xl font-serif mb-3 text-foreground/80 hover:underline cursor-pointer">
