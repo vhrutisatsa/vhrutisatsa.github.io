@@ -26,24 +26,28 @@ const ALL_ESSAYS = [
     id: 1,
     title: "What is Information Foraging?",
     category: "Cognition",
+    slug: "/essays/information-foraging",
     desc: "How the mind treats information the same way a forager treats food.",
   },
   {
     id: 2,
     title: "Why Humans Keep Scrolling",
     category: "Attention",
+    slug: "/essays/why-humans-keep-scrolling",
     desc: "The neuroscience of infinite scroll and what it reveals about prediction.",
   },
   {
     id: 3,
     title: "The Shape of Uncertainty",
     category: "Neuroscience",
+    slug: "/essays/shape-of-uncertainty",
     desc: "On living and deciding under irreducible uncertainty.",
   },
   {
     id: 4,
     title: "Attention as a Resource",
     category: "Attention",
+    slug: "/essays/attention-as-a-resource",
     desc: "What cognitive ecology tells us about modern distraction.",
   },
 ];
@@ -143,7 +147,7 @@ export function Essays() {
                   Coming soon
                 </span>
               </div>
-              <Link href="/essays/next-logo">
+              <Link href={essay.slug}>
                 <h2 className="text-2xl font-serif mb-3 text-foreground/80 hover:underline cursor-pointer">
                   {essay.title}
                 </h2>

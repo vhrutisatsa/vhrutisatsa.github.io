@@ -1,4 +1,8 @@
 import { foragingbehav } from "./pages/foragingbehav";
+import { EssayInformationForaging } from "./pages/EssayInformationForaging";
+import { EssayScrolling } from "./pages/EssayScrolling";
+import { EssayUncertainty } from "./pages/EssayUncertainty";
+import { EssayAttentionResource } from "./pages/EssayAttentionResource";
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -23,8 +27,24 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/research" component={Research} />
-          <Route path="/essays" component={Essays} />
           <Route path="/essays/foragingbehav" component={foragingbehav} />
+          <Route
+            path="/essays/information-foraging"
+            component={EssayInformationForaging}
+          />
+          <Route
+            path="/essays/why-humans-keep-scrolling"
+            component={EssayScrolling}
+          />
+          <Route
+            path="/essays/shape-of-uncertainty"
+            component={EssayUncertainty}
+          />
+          <Route
+            path="/essays/attention-as-a-resource"
+            component={EssayAttentionResource}
+          />
+          <Route path="/essays" component={Essays} />
           <Route path="/art" component={Art} />
           <Route path="/cv" component={CV} />
           <Route path="/contact" component={Contact} />
