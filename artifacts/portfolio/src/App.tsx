@@ -1,3 +1,4 @@
+import { foragingbehav } from "./pages/foragingbehav";
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -23,6 +24,7 @@ function Router() {
           <Route path="/" component={Home} />
           <Route path="/research" component={Research} />
           <Route path="/essays" component={Essays} />
+          <Route path="/essays/foragingbehav" component={foragingbehav} />
           <Route path="/art" component={Art} />
           <Route path="/cv" component={CV} />
           <Route path="/contact" component={Contact} />
