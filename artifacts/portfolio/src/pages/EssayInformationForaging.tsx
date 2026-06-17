@@ -25,8 +25,7 @@ export function EssayInformationForaging() {
           activities, their brain has evolved in a way to optimise their
           foraging behaviour in the best possible way. While several existing
           studies have looked at foraging behaviour, very few have, if at all,
-          focused on the influence of temporal structure on it. In this thesis,
-          I intend to focus on that aspect of foraging behaviour.
+          focused on the influence of temporal structure on it.
         </p>
         <p>
           While foraging in the environment is one thing, the optimal way of
