@@ -49,7 +49,7 @@ export function Home() {
           className="max-w-2xl space-y-5 text-lg md:text-xl text-foreground/80 font-light leading-relaxed"
         >
           <p>
-            I am a researcher exploring how human minds forage for information
+            I am a researcher exploring how human minds forage for resources and information
             and adapt in complex environments.
           </p>
           <p>
@@ -58,7 +58,7 @@ export function Home() {
             writer and visual artist.
           </p>
           <p className="text-sm uppercase tracking-widest font-medium pt-2 text-primary">
-            Preparing for PhD Applications and Research Roles
+            Foraging for PhD positions and Research roles
           </p>
         </motion.div>
       </motion.section>
@@ -175,13 +175,13 @@ export function Home() {
             className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-border/50 group"
           >
             <Link
-              href="/essays"
+              href="/essays/information-foraging"
               className="text-2xl font-serif group-hover:text-primary transition-colors"
             >
-              What is Information Foraging?
+              Foraging Theory and the Mind
             </Link>
             <span className="text-sm text-muted-foreground italic mt-2 md:mt-0">
-              Coming soon
+              May 2023
             </span>
           </motion.div>
           <motion.div
@@ -189,13 +189,13 @@ export function Home() {
             className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-border/50 group"
           >
             <Link
-              href="/essays"
+              href="/essays/why-humans-keep-scrolling"
               className="text-2xl font-serif group-hover:text-primary transition-colors"
             >
-              Why Humans Keep Scrolling
+              Linear Mixed-effects Models
             </Link>
             <span className="text-sm text-muted-foreground italic mt-2 md:mt-0">
-              Coming soon
+              October 2023
             </span>
           </motion.div>
         </div>
