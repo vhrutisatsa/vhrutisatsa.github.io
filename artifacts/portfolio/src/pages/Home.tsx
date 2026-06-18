@@ -49,8 +49,8 @@ export function Home() {
           className="max-w-2xl space-y-5 text-lg md:text-xl text-foreground/80 font-light leading-relaxed"
         >
           <p>
-            I am a researcher exploring how human minds forage for resources and information
-            and adapt in complex environments.
+            I am a researcher exploring how human minds forage for resources and
+            information and adapt in complex environments.
           </p>
           <p>
             My work integrates behavioral experiments, computational modeling,
