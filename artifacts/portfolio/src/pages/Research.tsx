@@ -51,7 +51,7 @@ export function Research() {
           <motion.div variants={fadeIn}>
             <div className="mb-6">
               <h3 className="text-2xl font-serif mb-2">Environmental Structure and Foraging</h3>
-              <p className="text-sm text-muted-foreground uppercase tracking-wider">Master's Thesis · Completed</p>
+              <p className="text-sm text-muted-foreground uppercase tracking-wider">Master's Thesis · Completed · IIT Kanpur</p>
             </div>
             <div className="space-y-4 text-foreground/90 font-light">
               <p><strong className="font-medium">Question:</strong> How does environmental structure influence when animals and humans choose to leave a resource patch?</p>
@@ -63,7 +63,7 @@ export function Research() {
           <motion.div variants={fadeIn}>
             <div className="mb-6">
               <h3 className="text-2xl font-serif mb-2">Smartphone Information Foraging</h3>
-              <p className="text-sm text-muted-foreground uppercase tracking-wider">Ongoing Research</p>
+              <p className="text-sm text-muted-foreground uppercase tracking-wider">Junior Research Fellow · IIT Jodhpur</p>
             </div>
             <div className="space-y-4 text-foreground/90 font-light">
               <p><strong className="font-medium">Question:</strong> How do affective states and environmental uncertainty shape digital information search?</p>
